@@ -1,0 +1,145 @@
+  @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* Universal Selection */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(17,17,17);
+    background: linear-gradient(225deg, rgba(17,17,17,1) 0%, rgba(29,29,29,1) 100%);
+}
+
+.logo {
+    width:  10rem;
+    margin: 10px 30px 10px 20px;
+}
+
+.logo a:hover {
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 16px;
+    color: #1E5128;
+}
+
+.headlink {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 35px;
+    margin: 0 40px 0 0 ;
+    color: white;
+    
+}
+
+.headlink:hover {
+    border: 2px solid ;
+    transition: 1s;
+    
+}
+
+/* body { */
+    /* background: rgb(17,17,17); */
+    /* background: linear-gradient(225deg, rgba(17,17,17,1) 0%, rgba(29,29,29,1) 100%); */
+/* } */
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  color: #04AA6D;
+  background-color: black;
+  /* color: white; */
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+button:hover{
+    color: black;
+    background-color: #04AA6D;
+    transition: .5s;
+}
+
+/* Extra styles for the cancel button */
+/* .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+} */
+
+.card {
+    /* position: relative; */
+    left: 400px;
+    top: 150px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .card {
+    display: flex;
+    justify-content: center;
+} */
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0E0E0E;
+    color: white;
+  }
